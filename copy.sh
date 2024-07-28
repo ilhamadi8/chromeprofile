@@ -1,8 +1,8 @@
 #!/bin/bash
 BASE_DIR="$HOME/.config/google-chrome"
-SOURCE_PROFILE="${BASE_DIR}/profile1"
+SOURCE_PROFILE="profile1"
 DESTINATION_PREFIX="${BASE_DIR}/profile"
-START_INDEX=2
+START_INDEX=1
 END_INDEX=30
 
 for i in $(seq $START_INDEX $END_INDEX); do
